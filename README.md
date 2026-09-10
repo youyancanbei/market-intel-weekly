@@ -16,7 +16,7 @@ market-intel-weekly/            # 技能本体（含 SKILL.md，可直接放进 
     ├── build_weekly_html.py    # 邮件安全 HTML 生成器（内联样式+table 布局+MSO 注释；支持品牌抬头）
     └── report_example.json     # 生成器输入示例
 dist/
-└── market-intel-weekly-v1.1.0.skill   # 打包好的可安装包（zip，SKILL.md 在根）
+└── market-intel-weekly-v1.1.1.skill   # 打包好的可安装包（zip，SKILL.md 在根）
 ```
 
 ## 安装

@@ -91,12 +91,12 @@ def kpi(s):
     tiles=s['kpis']; n=len(tiles); w=100//n
     tds=''
     for t in tiles:
-        tds+=(f'<td width="{w}%" style="padding:6px;"><div style="background:#fff;border:1px solid #eef1f5;'
+        tds+=(f'<td width="{w}%" style="padding:6px;vertical-align:top;"><div style="background:#fff;border:1px solid #eef1f5;'
               f'border-left:3px solid {t.get("color","#1F4E79")};border-radius:8px;padding:12px;">'
-              f'<div style="font-size:19px;font-weight:800;color:{t.get("color","#1F4E79")};">{esc(t["value"])}</div>'
+              f'<div style="font-size:18px;font-weight:800;color:{t.get("color","#1F4E79")};line-height:1.15;">{esc(t["value"])}</div>'
               f'<div style="font-size:12px;color:#404b58;margin-top:4px;line-height:1.4;">{esc(t["label"])}</div>'
               f'<div style="font-size:11px;color:#a6afc0;margin-top:3px;">{esc(t.get("source",""))}</div></div></td>')
-    return f'<tr><td style="padding:8px 18px 0 18px;"><table width="100%" cellpadding="0" cellspacing="0"><tr>{tds}</tr></table></td></tr>'
+    return f'<tr><td style="padding:8px 18px 0 18px;"><table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:separate;border-spacing:0;table-layout:fixed;"><tr>{tds}</tr></table></td></tr>'
 
 def timeline(s):
     accent=s['accent']; out=''
