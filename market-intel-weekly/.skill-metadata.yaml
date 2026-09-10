@@ -1,0 +1,60 @@
+examples:
+  - id: build-source-library
+    title:
+      zh: 建信息源台账
+      en: Build source library
+    description:
+      zh: 把两份/一批含信息源的文档整理成可采集的 Excel 台账并导出核心源清单
+      en: Turn source docs into an Excel ledger and export the core-source list
+    prompt:
+      zh: |-
+        把这几份文档里的信息源整理成可采集的信息源台账（Excel），并导出 ★核心源清单：
+        文档：{{文件路径，可多份}}
+        用途：后续按信息源采集生成{{行业}}市场情报日报/周报
+        要求：按来源类别分表、跨文档去重、缺链接的补齐并核验可访问性。
+      en: |-
+        Organize the information sources in these docs into a collectable Excel source ledger and export the ★core-source list:
+        Docs: {{file paths}}
+        Purpose: later collect by source to generate a {{industry}} market-intel daily/weekly report
+        Requirements: split sheets by source category, dedup across docs, fill and verify links.
+  - id: weekly-collect-list
+    title:
+      zh: 采集并生成情报清单
+      en: Collect and build intel list
+    description:
+      zh: 基于核心源，按时间区间并行采集并生成按产业环节分节的 md 情报清单
+      en: Collect across core sources for a window and build a themed md intel list
+    prompt:
+      zh: |-
+        基于核心信息源清单，采集 {{起时间，如上周四}} 到 {{止时间，如今天}} 的信息，整理成一份按产业环节分节的情报清单 md：
+        核心源：{{核心源清单文件，或"用技能内置核心源"}}
+        每条含 日期·来源链接·要点·对本国/本公司意味着；存疑处标注待核。
+      en: |-
+        Using the core-source list, collect info from {{start}} to {{end}} into a per-segment markdown intel list:
+        each item has date·source link·key point·"what it means for us"; flag uncertain items for fact-check.
+  - id: fact-check-flagged
+    title:
+      zh: 核查待核项
+      en: Fact-check flagged items
+    description:
+      zh: 对清单里标为待核/媒体口径/转引的条目做独立核查并回写更正
+      en: Verify the flagged/partial/second-hand items and apply corrections
+    prompt:
+      zh: |-
+        单独核查这份情报清单里所有"待核/转引/媒体口径"项：{{清单文件路径}}
+        逐项给判定(属实/部分属实/无法证实·传闻)+证据(来源·URL·日期)+处理建议，产出《事实核查报告》，并把更正回写到清单与周报。
+      en: |-
+        Independently fact-check every 待核/转引/媒体 item in {{list file}}; give verdict + evidence (source·URL·date) + action, produce a fact-check report, and apply corrections back to the list and weekly report.
+  - id: email-weekly-html
+    title:
+      zh: 生成邮件周报HTML
+      en: Generate email weekly HTML
+    description:
+      zh: 把情报清单生成可邮件发送的 HTML 周报，各板块按内容选版式
+      en: Render the intel list into an email-ready weekly HTML with per-section layouts
+    prompt:
+      zh: |-
+        把这份情报清单做成可邮件发送的 HTML 周报：{{清单文件路径}}
+        要求：自包含、全内联样式、table 布局；概览板块作摘要，政策/供需/基础设施/能源/模型/厂商/资本各用契合内容的版式（卡片/KPI+表/时间线/callout/可信度表），不要解说性文字与页脚。
+      en: |-
+        Turn {{intel list}} into an email-ready weekly HTML report: self-contained, all inline styles, table layout; overview as summary; each section uses a layout fitting its content; no explanatory text or footer.

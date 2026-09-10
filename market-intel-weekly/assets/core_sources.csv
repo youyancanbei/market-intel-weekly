@@ -1,0 +1,87 @@
+来源名称,官网/栏目链接,来源类别,产业环节,优先级,采集方式
+AMD,https://www.amd.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+ASML,https://www.asml.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+Alphabet,https://abc.xyz,厂商与公司官网·IR,AI基础设施,★核心,官网/IR/公告
+Amazon,https://www.amazon.com,厂商与公司官网·IR,AI基础设施,★核心,官网/IR/公告
+Broadcom,https://www.broadcom.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+Intel,https://www.intel.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+Meta,https://www.meta.com,厂商与公司官网·IR,AI基础设施,★核心,官网/IR/公告
+Micron,https://www.micron.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+Microsoft,https://www.microsoft.com,厂商与公司官网·IR,AI基础设施,★核心,官网/IR/公告
+NVIDIA,https://www.nvidia.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+SK hynix,https://www.skhynix.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+TSMC,https://www.tsmc.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+中微公司,https://www.amec-inc.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+中科曙光,https://www.sugon.com,厂商与公司官网·IR,AI基础设施,★核心,官网/IR/公告
+中芯国际,https://www.smics.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+北方华创,https://www.naura.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+华为,https://www.huawei.com,厂商与公司官网·IR,AI基础设施,★核心,官网/IR/公告
+华为昇腾,https://www.hiascend.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+华大九天,https://www.empyrean.com.cn,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+华虹公司,https://www.huahong.com.cn,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+壁仞科技,https://www.birentech.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+天数智芯,https://www.iluvatar.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+寒武纪,https://www.cambricon.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+拓荆科技,https://www.piotech.cn,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+摩尔线程,https://www.mthreads.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+昆仑芯,https://www.kunlunxin.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+沐曦,https://www.metax-tech.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+浪潮信息,https://www.inspur.com,厂商与公司官网·IR,AI基础设施,★核心,官网/IR/公告
+海光信息,https://www.hygon.cn,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+燧原科技,https://www.enflame-tech.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+腾讯云,https://cloud.tencent.com,厂商与公司官网·IR,AI基础设施,★核心,官网/IR/公告
+长江存储,https://www.ymtc.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+长鑫存储,https://www.cxmt.com,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+阿里云,https://www.aliyun.com,厂商与公司官网·IR,AI基础设施,★核心,官网/IR/公告
+龙芯中科,https://www.loongson.cn,厂商与公司官网·IR,芯片/半导体,★核心,官网/IR/公告
+Artificial Analysis,https://artificialanalysis.ai,学术·标准·开源·评测榜单,模型,★核心,平台API/榜单/RSS
+GitHub,https://github.com,学术·标准·开源·评测榜单,技术进步,★核心,GitHub Watch/规范页/RSS
+Hugging Face,https://huggingface.co,学术·标准·开源·评测榜单,模型,★核心,平台API/榜单/RSS
+MLCommons（MLPerf）,https://mlcommons.org,学术·标准·开源·评测榜单,技术进步,★核心,GitHub Watch/规范页/RSS
+ModelScope；魔搭,https://modelscope.cn,学术·标准·开源·评测榜单,模型,★核心,平台API/榜单/RSS
+Open Compute Project,https://opencompute.org,学术·标准·开源·评测榜单,技术进步,★核心,GitHub Watch/规范页/RSS
+OpenReview,https://openreview.net,学术·标准·开源·评测榜单,技术进步,★核心,会议官网/论文订阅/RSS
+arXiv,https://arxiv.org,学术·标准·开源·评测榜单,技术进步,★核心,会议官网/论文订阅/RSS
+Federal Register；eCFR,https://www.federalregister.gov,政府·监管·国际组织,政策/监管,★核心,官网/邮件订阅
+中国政府网,https://www.gov.cn,政府·监管·国际组织,政策,★核心,官网/邮件订阅
+商务部,https://www.mofcom.gov.cn,政府·监管·国际组织,政策/监管,★核心,官网/邮件订阅
+国家发展和改革委员会,https://www.ndrc.gov.cn,政府·监管·国际组织,政策/监管,★核心,官网/邮件订阅
+国家数据局,https://www.nda.gov.cn,政府·监管·国际组织,AI基础设施,★核心,官网/邮件订阅
+国家能源局,https://www.nea.gov.cn,政府·监管·国际组织,能源,★核心,官网/邮件订阅
+工业和信息化部,https://www.miit.gov.cn,政府·监管·国际组织,政策/监管,★核心,官网/邮件订阅
+欧盟委员会；EUR-Lex,https://eur-lex.europa.eu,政府·监管·国际组织,政策/监管,★核心,官网/邮件订阅
+海关总署,http://www.customs.gov.cn,政府·监管·国际组织,政策/监管,★核心,官网/邮件订阅
+美国商务部工业与安全局 BIS,https://www.bis.doc.gov,政府·监管·国际组织,政策/监管,★核心,官网/邮件订阅
+Anthropic；文档,https://anthropic.com,模型·AI·Agent,模型,★核心,官网/GitHub Watch/文档
+DeepSeek；官方GitHub,https://deepseek.com,模型·AI·Agent,模型,★核心,官网/GitHub Watch/文档
+Dify,https://dify.ai,模型·AI·Agent,Agent,★核心,GitHub Watch/官方文档/RSS
+Google DeepMind；Google AI Developers,https://deepmind.google,模型·AI·Agent,模型,★核心,官网/GitHub Watch/文档
+LangChain；LangGraph,https://python.langchain.com,模型·AI·Agent,Agent,★核心,GitHub Watch/官方文档/RSS
+Meta AI；Llama,https://ai.meta.com,模型·AI·Agent,模型,★核心,官网/GitHub Watch/文档
+Model Context Protocol (MCP),https://modelcontextprotocol.io,模型·AI·Agent,Agent,★核心,GitHub Watch/官方文档/RSS
+OpenAI；开发者平台,https://openai.com,模型·AI·Agent,模型,★核心,官网/GitHub Watch/文档
+Qwen 通义（官方GitHub）,https://qwenlm.github.io,模型·AI·Agent,模型,★核心,官网/GitHub Watch/文档
+SGLang,https://github.com/sgl-project/sglang,模型·AI·Agent,Agent,★核心,GitHub Watch/官方文档/RSS
+vLLM,https://github.com/vllm-project/vllm,模型·AI·Agent,Agent,★核心,GitHub Watch/官方文档/RSS
+EE Times,https://www.eetimes.com,海外媒体,芯片/半导体,★核心,官网/RSS/人工
+彭博社,https://www.bloomberg.com,海外媒体,综合（政策/市场/舆情）,★核心,官网/RSS/人工
+路透社,https://www.reuters.com,海外媒体,综合（政策/市场/舆情）,★核心,官网/RSS/人工
+SEMI,https://semi.org,研究与数据机构,芯片/半导体,★核心,官网/邮件订阅
+SIA,https://semiconductors.org,研究与数据机构,芯片/半导体,★核心,官网/邮件订阅
+TechInsights,https://www.techinsights.com,研究与数据机构,芯片/半导体,★核心,官网/邮件订阅
+WSTS,https://wsts.org,研究与数据机构,芯片/半导体,★核心,官网/邮件订阅
+Semiconductor Engineering,https://semiengineering.com,科技·半导体·行业媒体,芯片/半导体,★核心,官网/邮件订阅
+半导体行业观察,https://www.semiinsights.com,科技·半导体·行业媒体,芯片/半导体,★核心,官网/RSS/人工
+集微网,https://www.ijiwei.com,科技·半导体·行业媒体,芯片/半导体,★核心,官网/邮件订阅
+Data Center Dynamics,https://datacenterdynamics.com,能源·电力·数据中心,AI基础设施,★核心,官网/邮件订阅
+Data Center Knowledge,https://datacenterknowledge.com,能源·电力·数据中心,AI基础设施,★核心,官网/邮件订阅
+中国信息通信研究院,https://www.caict.ac.cn,能源·电力·数据中心,AI基础设施,★核心,官网/邮件订阅
+中国电力企业联合会,https://cec.org.cn,能源·电力·数据中心,能源,★核心,官网/数据库
+国家电网；南方电网,https://www.sgcc.com.cn,能源·电力·数据中心,能源,★核心,官网/数据库
+国际能源署 IEA,https://iea.org,能源·电力·数据中心,能源,★核心,官网/数据库
+美国能源信息署 EIA,https://eia.gov,能源·电力·数据中心,能源,★核心,官网/数据库
+微信公众号、视频号,https://mp.weixin.qq.com,舆情·社区·社交平台,全环节,★核心,平台API/人工（合规采集）
+华尔街见闻,https://wallstreetcn.com,财经媒体,综合（算力/芯片全环节）,★核心,官网/RSS/人工
+新浪财经,https://finance.sina.com.cn,财经媒体,综合（算力/芯片全环节）,★核心,官网/RSS/人工
+证券时报,https://www.stcn.com,财经媒体,综合（算力/芯片全环节）,★核心,官网/RSS/人工
+财联社,https://www.cls.cn,财经媒体,综合（算力/芯片全环节）,★核心,官网/RSS/人工
